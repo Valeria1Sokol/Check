@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleCheck.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> </head>
+<body>
+    <header>
+        <nav class="menu">
+            <div> <a href="#">Home</a> <a href="#">Ask a legal question</a> <a href="#">Find a solicitor</a> <a href="#">Write a review</a> <a href="#">I am a solicitor</a> <a href="#">News and FAQ</a> </div>
+            <div> <a href="#">My dasboard</a></div>
+        </nav>
+        <div class="img-header"> <img src="img/logo.png" alt="Solicitor"> </div>
+    </header>
+    <div class="container">
+        <h1>Check to make sure clients are happy</h1>
+        <p>Here you can send a link to clients who have recently instructed the firm to ask if they are satisfied with the service they have received to date. Often clients can experience a dissatisfaction if their understanding of how their case will progress is not how things have started out. By sending a request early on, the client will have the opportunity to let you know if something is not quite right - without this being made public. Having an early understanding of the issues allows you the ability to take any corrective action. This service also gives you the peace of mind to know that everything is OK.</p>
+        <div class='generate'>
+            <h1>Check to make sure clients are happy</h1>
+            <div class="allParam">
+                <div class="clientInfo">
+                    <form>
+                        <p>Client's first name</p>
+                        <input type="text" placeholder="Enter first name"> </form>
+                    <form>
+                        <p>Client's surname</p>
+                        <input type="text" placeholder="Enter surname"> </form>
+                    <form>
+                        <p>Client's email address</p>
+                        <input type="text" placeholder="Enter email"> </form>
+                    <form>
+                        <p>Matter type <span>(optional)</span></p>
+                        <select>
+                            <option>Option1</option>
+                            <option>Option1</option>
+                            <option>Option1</option>
+                        </select>
+                    </form>
+                    <div class="form5">
+                        <div class="img"><img src="img/avatar.png"></div>
+                        <form>
+                            <p>Solicitor involved <span>(optional)</span></p>
+                            <input type="text" placeholder="Start typing solicitors name">
+                            <input type="button" value="Add another solicitor"> </form>
+                    </div>
+                    <form>
+                        <p>Add a personal message <span>(optional)</span></p>
+                        <p class="notes">This message will be included in the questionnaire</p>
+                        <textarea placeholder="Add a personal message"></textarea>
+                    </form>
+                    <form>
+                        <p>Add a personal reference <span>(not seen by the client)</span></p>
+                        <p class="notes">This is used to help track each email in the history table on the right hand side</p>
+                        <input type="text" placeholder="e.g client 10234 or Miss D.Jones l"> </form>
+                    <form> <a href="">Preview email</a>
+                        <input type="button" id="submit" value="Submit"> </form>
+                </div>
+                <div class="base">
+                    <div class="title">
+                        <div>
+                            <div class='circle'></div>
+                            <p>Sent email status</p>
+                        </div>
+                        <select>
+                            <option>Select Month</option>
+                            <option>option1</option>
+                            <option>option1</option>
+                        </select>
+                    </div>
+                    <table>
+                        <tr id="firstLine">
+                            <td class="cl1">No</td>
+                            <td class="cl2">Your reference</td>
+                            <td class="cl3">Date sent</td>
+                            <td class="cl4">Email status</td>
+                            <td class="cl5">Is everything OK?</td>
+                            <td class="cl6">Additional feedback given</td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">1</td>
+                            <td class="cl2">Mrs D. Jones</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6">Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">2</td>
+                            <td class="cl2">Mr J. Smith</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6">Lorem Ipsum dolor sit amet, consectetuer adipiscingelit. </td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">3</td>
+                            <td class="cl2">Mr C. Parker</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6">Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">4</td>
+                            <td class="cl2">Mr H. Kelly</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6"><img src="img/add.png"></td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">5</td>
+                            <td class="cl2">Mrs J. Jones</td>
+                            <td class="cl3">01/01/2019</td>
+                           <td class="cl4">Delivered</td>
+                           <td class="cl5"><img src="img/x.png"></td>
+                            <td class="cl6">Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">6</td>
+                            <td class="cl2">Mrs L. Robinson</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6">Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">7</td>
+                            <td class="cl2">Mrs V. King</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6"><img src="img/add.png"></td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">8</td>
+                            <td class="cl2">Mr D. Thompson</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/x.png"></td>
+                            <td class="cl6">Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">9</td>
+                            <td class="cl2">Mrs J. Hughes</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6"><img src="img/add.png"></td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">10</td>
+                            <td class="cl2">Mr M. Alexander</td>
+                            <td class="cl3">01/01/2019</td>
+                            <td class="cl4">Delivered</td>
+                            <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6"><img src="img/add.png"></td>
+                        </tr>
+                        <tr>
+                            <td class="cl1">11</td>
+                            <td class="cl2">Mr E. Sanchez</td>
+                            <td class="cl3">01/01/2019</td>
+                           <td class="cl4">Delivered</td>
+                           <td class="cl5"><img src="img/review.png"></td>
+                            <td class="cl6">Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
